@@ -1,0 +1,89 @@
+body{
+    background-color: #141d26;
+}
+
+#Inicio{
+    display: flexbox;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-family: courier,arial,helvetica;
+    white-space: pre-line;
+}
+
+h2{
+    color: azure;
+    font-weight: bold;
+    font-family: courier,arial,helvetica;
+}
+
+p{
+    color: azure;
+    font-weight: normal;
+    font-family: courier,arial,helvetica;
+}
+
+span{
+    color: azure;
+    font-weight: normal;
+    font-family: courier,arial,helvetica;
+}
+
+ul{
+    color: azure;
+    font-weight: normal;
+    font-family: courier,arial,helvetica;
+}
+
+footer{
+    color: azure;
+    font-weight: normal;
+    font-family: courier,arial,helvetica;
+    text-align: center;
+    display: flexbox;
+}
+
+img{
+    height: 150px;
+    width: 50%;
+    background-color: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Objective{
+    display: flexbox;
+}
+
+@media only screen and (max-width: 768px) {
+    h2{
+        text-align: center;
+    }
+
+    div{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    span{
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    li{
+        text-align: center;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
